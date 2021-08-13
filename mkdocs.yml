@@ -1,12 +1,11 @@
 site_name: Tendata Java开发指南
-site_url: https://example.com/
+site_url: https://lwpk110.github.io/tendata-javadoc/
 site_description: >-
   Java开发组技术文档目前规划建设中，初期建设基本的入门步骤，代码风格，工具集合等，后期将完善技术积累等过程
 
 # theme
 theme:
   name: material   # readthedocs, material, mkdocs(默认)
-  primary: 
   langage: zh
   favicon: assets/images/favicon.ico
   custom_dir: material

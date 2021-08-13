@@ -1,17 +1,13 @@
-标准规范
-=======
+# 标准规范
 
-编码规范
--------
+## 编码规范
 
-idea风格
--------
+## idea风格
 
-mysql
------
+## 数据库
 
-elasticsearch
-------------
+### mysql
 
-mongodb
--------
+### elasticsearch
+
+### mongodb
