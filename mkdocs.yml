@@ -51,7 +51,7 @@ plugins:
 
 # Customization
 extra:
-  disqus: !ENV [DISQUS_ACCOUNT,"disqus_rvuDIVivBM"]
+  disqus: !ENV [DISQUS_ACCOUNT,"tendata-doc"]
   analytics:
     provider: google
     property: !ENV [GOOGLE_ANALYTICS_KEY,"G-DF2YRJ16JT"]
