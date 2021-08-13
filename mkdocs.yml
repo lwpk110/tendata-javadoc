@@ -5,13 +5,11 @@ site_description: >-
 
 # theme
 theme:
-  icon:
-    repo: fontawesome/brands/github
   name: material   # readthedocs, material, mkdocs(默认)
-  custom_dir: "material"
   primary: 
   langage: zh
-  favicon: /assets/images/favicon.ico
+  favicon: assets/images/favicon.ico
+  custom_dir: material
   highlightjs: true
   hljs_languages:
   - yaml
@@ -33,8 +31,8 @@ theme:
       toggle:
         icon: material/toggle-switch # material/toggle-switch, material/weather-night
         name: Switch to light mode
-
-
+  icon:
+    repo: fontawesome/brands/github
 
 # Repository
 repo_name: lwpk110/tendata-javadoc
@@ -43,57 +41,6 @@ edit_uri: ""
 
 # Copyright
 copyright: Copyright &copy; 2021-2300 Tendata Javer
-
-# Configuration
-theme:
-  name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
-
-  # Static files
-  static_templates:
-    - 404.html
-
-  # Don't include MkDocs' JavaScript
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  features:
-    - content.code.annotate
-    - content.tabs.link
-    # - header.autohide
-    # - navigation.expand
-    # - navigation.indexes
-    # - navigation.instant
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    # - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
 
 # Plugins
 plugins:
@@ -117,16 +64,6 @@ extra:
       link: "mailto: wei.lu@tendata.cn"
     - icon: fontawesome/brands/qq
       link: http://wpa.qq.com/msgrd?v=3&uin=250397846&site=qq&menu=yes
-    # - icon: fontawesome/brands/gitter
-    #   link: https://gitter.im/squidfunk/mkdocs-material
-    # - icon: fontawesome/brands/docker
-    #   link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    # - icon: fontawesome/brands/twitter
-    #   link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/linkedin
-    #   link: https://linkedin.com/in/squidfunk/
-    # - icon: fontawesome/brands/instagram
-    #   link: https://instagram.com/squidfunk
 
 # Extensions
 markdown_extensions:
